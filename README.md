@@ -43,7 +43,8 @@ Docker managed by CasaOS ( www.casaos.io ).
   
   Automatic Ripping Machine (ARM) installed via instructions from https://github.com/automatic-ripping-machine/automatic-ripping-machine and pointed to my media folder via casa GUI.
   
-    ARM required me to set the "arm" user as owner of the folders - the container seems picky about things being right so make sure you RTFM.
+    ARM required me to set the "arm" user as owner of the folders
+    - the container seems picky about things being right so make sure you RTFM.
   
   YouTube Dl Material https://github.com/Tzahi12345/YoutubeDL-Material pointed to media folder via casa GUI.
   
