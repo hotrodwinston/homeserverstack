@@ -28,7 +28,7 @@ Potential upgrades:
   
   Replacing the DVD drive with a blu-ray drive is an option - but ripping blu-ray will require both a compatible drive and a MakeMKV license.
   
-    MakeMKV beta keys are currently free on their forum but this could change at any time and requires the key be updated from time to time where a full paid license does not require updating so is worth the money if ripping blu-ray especially considering ripping is not done thru the MakeMKV gui but via CLI script.
+   (MakeMKV beta keys are currently free on their forum but this could change at any time and requires the key be updated from time to time where a full paid license does not require updating so is worth the money if ripping blu-ray especially considering ripping is not done thru the MakeMKV gui but via CLI script.)
     
 # Software
 Running Lubuntu current LTS (22.04 as of writing) with NoMachine to access the GUI if needed.
@@ -46,4 +46,23 @@ Docker managed by CasaOS ( www.casaos.io ).
     ARM required me to set the "arm" user as owner of the folders - the container seems picky about things being right so make sure you RTFM.
   
   YouTube Dl Material https://github.com/Tzahi12345/YoutubeDL-Material pointed to media folder via casa GUI.
+  
+# Future
+Looking at running a vpn tunnel for bittorrent - probably gluetun https://github.com/qdm12/gluetun .
+
+Guide for all in one setup (not compatible with casa install method so will need to install manually https://code.mendhak.com/run-docker-through-vpn-container/ .
+
+May transfer my Home Assistant install to the server to free up space. (And a rpi.)
+
+# More Resources
+
+https://www.reddit.com/r/CasaOS/
+
+https://www.reddit.com/r/homelab/
+
+https://www.reddit.com/r/homelab/wiki/software/#wiki_oblecto
+
+https://umbrel.com/#umbrelos alternative to casaos
+
+https://github.com/awesome-selfhosted/awesome-selfhosted
     
