@@ -45,8 +45,10 @@ Docker managed by CasaOS ( www.casaos.io ).
   
     ARM required me to set the "arm" user as owner of the folders
     - the container seems picky about things being right so make sure you RTFM.
+
+Portainer for installing things that are more complex than casa can (currently) handle
   
-  YouTube Dl Material https://github.com/Tzahi12345/YoutubeDL-Material pointed to media folder via casa GUI.
+  YouTube Dl Material - installed via portainer then pointed at media folders via casa GUI.
   
 # Future
 Looking at running a vpn tunnel for bittorrent - probably gluetun https://github.com/qdm12/gluetun .
@@ -54,6 +56,7 @@ Looking at running a vpn tunnel for bittorrent - probably gluetun https://github
 Guide for all in one setup (not compatible with casa install method so will need to install manually https://code.mendhak.com/run-docker-through-vpn-container/ .
 
 May transfer my Home Assistant install to the server to free up space. (And a rpi.)
+ This idea seems to be a no-go as only the "core" version seems to be available. My pi4 is running HA just fine just wanted to simplify my hardware stack.
 
 # More Resources
 
@@ -63,7 +66,13 @@ https://www.reddit.com/r/homelab/
 
 https://www.reddit.com/r/homelab/wiki/software/#wiki_oblecto
 
-https://umbrel.com/#umbrelos alternative to casaos
+https://umbrel.com/#umbrelos (alternative to casaos)
 
 https://github.com/awesome-selfhosted/awesome-selfhosted
+
+https://github.com/SelfhostedPro
+
+https://www.home-assistant.io/
+
+https://www.awesome-ha.com/
     
