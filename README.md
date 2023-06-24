@@ -53,7 +53,7 @@ Portainer for installing things that are more complex than casa can (currently) 
 # Future
 Looking at running a vpn tunnel for bittorrent - probably gluetun https://github.com/qdm12/gluetun .
 
-Guide for all in one setup (not compatible with casa install method so will need to install manually https://code.mendhak.com/run-docker-through-vpn-container/ .
+Guide for all in one setup of gluetun and bittorrent (not compatible with casa install method so will need to install manually https://code.mendhak.com/run-docker-through-vpn-container/ .
 
 May transfer my Home Assistant install to the server to free up space. (And a rpi.)
  This idea seems to be a no-go as only the "core" version seems to be available. My pi4 is running HA just fine just wanted to simplify my hardware stack.
