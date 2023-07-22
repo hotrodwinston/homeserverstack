@@ -30,7 +30,11 @@ Potential upgrades:
   
    (MakeMKV beta keys are currently free on their forum but this could change at any time and requires the key be updated from time to time where a full paid license does not require updating so is worth the money if ripping blu-ray especially considering ripping is not done thru the MakeMKV gui but via CLI script.)
 
+# Secondary Hardware
+
 Rpi 4 2gb running docker with duckDNS and Nginx proxy manager containers to provide an external connection to casaos control panel.
+
+Rpi 4 2gb running Home Assistant with z-wave and zigbee combo usb and nabu casa subscription.
 
 # Software
 Lubuntu current LTS (22.04 as of writing) with NoMachine to access the GUI if needed.
