@@ -51,7 +51,8 @@ Docker managed by CasaOS ( www.casaos.io ).
     - the container seems picky about things being right so make sure you RTFM.
 
 Portainer for installing things that are more complex than casa can (currently) handle
-    With the release of casaos V0.4.4 this may not be needed. I keep the container stopped.
+      
+      With the release of casaos V0.4.4 this may not be needed. I keep the container stopped.
   
   YouTube Dl Material - installed via portainer then pointed at media folders via casa GUI.
   
