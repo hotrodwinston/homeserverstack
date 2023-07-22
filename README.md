@@ -29,11 +29,15 @@ Potential upgrades:
   Replacing the DVD drive with a blu-ray drive is an option - but ripping blu-ray will require both a compatible drive and a MakeMKV license.
   
    (MakeMKV beta keys are currently free on their forum but this could change at any time and requires the key be updated from time to time where a full paid license does not require updating so is worth the money if ripping blu-ray especially considering ripping is not done thru the MakeMKV gui but via CLI script.)
-    
-# Software
-Running Lubuntu current LTS (22.04 as of writing) with NoMachine to access the GUI if needed.
 
-Lubuntu takes very little resources vs a no desktop "server" distro and provides easier troubleshooting as I can connect a monitor or remote in as needed.
+Rpi 4 2gb running docker with duckDNS and Nginx proxy manager containers to provide an external connection to casaos control panel.
+
+# Software
+Lubuntu current LTS (22.04 as of writing) with NoMachine to access the GUI if needed.
+
+Lubuntu takes very few resources vs a no desktop "server" distro and provides easier troubleshooting as I can connect a monitor or remote in as needed.
+
+Fail2Ban
 
 Docker managed by CasaOS ( www.casaos.io ).
 
@@ -47,6 +51,7 @@ Docker managed by CasaOS ( www.casaos.io ).
     - the container seems picky about things being right so make sure you RTFM.
 
 Portainer for installing things that are more complex than casa can (currently) handle
+    With the release of casaos V0.4.4 this may not be needed. I keep the container stopped.
   
   YouTube Dl Material - installed via portainer then pointed at media folders via casa GUI.
   
