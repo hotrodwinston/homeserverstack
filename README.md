@@ -68,6 +68,8 @@ Guide for all in one setup of gluetun and bittorrent (not compatible with casa i
 May transfer my Home Assistant install to the server to free up space. (And a rpi.)
  This idea seems to be a no-go as only the "core" version seems to be available. My pi4 is running HA just fine just wanted to simplify my hardware stack.
 
+ I ended up switching (back) to OpenHAB for home automation and the docker image there works fine.
+
 # More Resources
 
 https://www.reddit.com/r/CasaOS/
