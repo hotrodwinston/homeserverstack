@@ -34,7 +34,6 @@ Potential upgrades:
 
 Rpi 4 2gb running docker with duckDNS and Nginx proxy manager containers to provide an external connection to casaos control panel.
 
-Rpi 4 2gb running Home Assistant with z-wave and zigbee combo usb and nabu casa subscription.
 
 # Software
 Lubuntu current LTS (22.04 as of writing) with NoMachine to access the GUI if needed.
@@ -85,6 +84,8 @@ https://github.com/awesome-selfhosted/awesome-selfhosted
 https://github.com/SelfhostedPro
 
 https://www.home-assistant.io/
+
+https://www.openhab.org/
 
 https://www.awesome-ha.com/
     
