@@ -11,7 +11,7 @@ I am running an HP EliteDesk 800 G1 SFF with 256GB ssd boot drive and i5-4590 wi
 
 I purchased this refurb from amazon for about $120 (usd) in May 2023
 
-External storage is a couple of usb3 HDD connected via a tp-link powered usb3 hub
+External storage is a few usb3 HDD connected via a tp-link powered usb3 hub
 
 Hardware issues noted:
   Will not boot headless.
@@ -32,11 +32,11 @@ Potential upgrades:
 
 # Secondary Hardware
 
-Rpi 4 2gb running docker with duckDNS and Nginx proxy manager containers to provide an external connection to casaos control panel.
+Rpi 4 2gb running docker with duckDNS and WireGuardEasy containers to provide an external connection to casaos control panel.
 
 
 # Software
-Lubuntu current LTS (22.04 as of writing) with NoMachine to access the GUI if needed.
+Lubuntu current LTS (22.04 as of writing) with getscreen to access the GUI if needed.
 
 Lubuntu takes very few resources vs a no desktop "server" distro and provides easier troubleshooting as I can connect a monitor or remote in as needed.
 
@@ -58,14 +58,13 @@ Portainer for installing things that are more complex than casa can (currently) 
       With the release of casaos V0.4.4 this may not be needed. I keep the container stopped.
   
   YouTube Dl Material - installed via portainer then pointed at media folders via casa GUI.
+    I recently ran into issues with YTDL Material so I am running MeTube along side it for redundency.
   
 # Future
 Looking at running a vpn tunnel for bittorrent - probably gluetun https://github.com/qdm12/gluetun .
 
 Guide for all in one setup of gluetun and bittorrent (not compatible with casa install method so will need to install manually https://code.mendhak.com/run-docker-through-vpn-container/ .
 
-May transfer my Home Assistant install to the server to free up space. (And a rpi.)
- This idea seems to be a no-go as only the "core" version seems to be available. My pi4 is running HA just fine just wanted to simplify my hardware stack.
 
  I ended up switching (back) to OpenHAB for home automation and the docker image there works fine.
 
