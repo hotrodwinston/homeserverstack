@@ -63,8 +63,10 @@ Portainer for installing things that are more complex than Casa can (currently) 
     I recently ran into issues with YTDL Material so I am running MeTube alongside it for redundancy.
 
 OpenHAB for Home Automation
-  Some tech geeks will give me issues for not using Home Assistant but I prefer OpenHAB and deploying the docker is easy as you don't have to set up separate docker apps for Z-wave and Zigbee to work like you do with HA. It just works. Plus I have been using OH since 2018 soooo.
-    I have a separate doc in this repo for config tips for my OH setup
+  Some tech geeks will give me issues for not using Home Assistant but I prefer OpenHAB and deploying the docker is easy as you don't have to set up separate docker apps for Z-wave and Zigbee to work like you do with HA.
+  It just works. Plus I have been using OH since 2018 soooo.
+      
+      I have a separate doc in this repo for config tips for my OH setup
   
 # Future
 I'm looking at running a VPN tunnel for BitTorrent - probably Gluetun https://github.com/qdm12/gluetun .
