@@ -53,4 +53,6 @@ open/on
       command: "100"
     type: core.ItemCommandAction
 
+https://community.openhab.org/t/getting-gocontrol-wa00z-1-to-controlzooz-zen52-double-relay/153235/14
 
+setting up rules to have scene controllers turn items on and off is more complicated than it should be in some cases so this guide is helpful.
