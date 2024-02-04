@@ -17,35 +17,35 @@ Pantry light rules
 closed/off
 
         configuration: {}
-triggers:
-  - id: "1"
+        triggers:
+      - id: "1"
     configuration:
       itemName: pantry_door_sensor_Contact_Portal_1
       state: CLOSED
       previousState: OPEN
     type: core.ItemStateChangeTrigger
-conditions: []
-actions:
-  - inputs: {}
+    conditions: []
+    actions:
+      - inputs: {}
     id: "2"
     configuration:
       itemName: Morgan_Lamp_pantry
       command: "0"
     type: core.ItemCommandAction
 
-    open/on
+open/on
 
         configuration: {}
-triggers:
-  - id: "1"
+    triggers:
+      - id: "1"
     configuration:
       itemName: pantry_door_sensor_Contact_Portal_1
       state: OPEN
       previousState: CLOSED
     type: core.ItemStateChangeTrigger
-conditions: []
-actions:
-  - inputs: {}
+    conditions: []
+    actions:
+      - inputs: {}
     id: "2"
     configuration:
       itemName: Morgan_Lamp_pantry
