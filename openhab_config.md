@@ -14,6 +14,7 @@ https://github.com/openhab/org.openhab.binding.zwave/blob/main/doc/linear/wa00z1
 https://docs.smarthomej.org/3.2.9/org.smarthomej.binding.tuya.html
 
 Pantry light rules
+
 closed/off
 
         configuration: {}
