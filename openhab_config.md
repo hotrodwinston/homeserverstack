@@ -12,3 +12,44 @@ As I Write Rules during my reset I will copy the code here so I can set them bac
 https://github.com/openhab/org.openhab.binding.zwave/blob/main/doc/linear/wa00z1_0_0.md
 
 https://docs.smarthomej.org/3.2.9/org.smarthomej.binding.tuya.html
+
+Pantry light rules
+closed/off
+
+        configuration: {}
+triggers:
+  - id: "1"
+    configuration:
+      itemName: pantry_door_sensor_Contact_Portal_1
+      state: CLOSED
+      previousState: OPEN
+    type: core.ItemStateChangeTrigger
+conditions: []
+actions:
+  - inputs: {}
+    id: "2"
+    configuration:
+      itemName: Morgan_Lamp_pantry
+      command: "0"
+    type: core.ItemCommandAction
+
+    open/on
+
+        configuration: {}
+triggers:
+  - id: "1"
+    configuration:
+      itemName: pantry_door_sensor_Contact_Portal_1
+      state: OPEN
+      previousState: CLOSED
+    type: core.ItemStateChangeTrigger
+conditions: []
+actions:
+  - inputs: {}
+    id: "2"
+    configuration:
+      itemName: Morgan_Lamp_pantry
+      command: "100"
+    type: core.ItemCommandAction
+
+
