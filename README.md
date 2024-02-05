@@ -70,7 +70,12 @@ Homarr for a dashboard
 
 # More Resources
 
-https://www.reddit.com/r/CasaOS/ (simple frontend if you are ok with being slightly behind on container updates and only need simple containers)
+https://www.openmediavault.org/
+
+https://casaos.io/
+(What I started with - a simple frontend if you are ok with being slightly behind on container updates and only need simple containers)
+
+https://www.reddit.com/r/CasaOS/
 
 https://www.reddit.com/r/homelab/
 
