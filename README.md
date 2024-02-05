@@ -58,13 +58,14 @@ Portainer
   YouTube Dl Material - installed via portainer
     I recently ran into issues with YTDL Material so I am running MeTube alongside it for redundancy.
 
-OpenHAB for Home Automation
-  Some tech geeks will give me issues for not using Home Assistant but I prefer OpenHAB and deploying the docker is easy as you don't have to set up separate docker apps for Z-wave and Zigbee to work like you do with HA.
-  It just works. Plus I have been using OH since 2018 back when you had to be fluent in YAML to use HA and OpenHAB was all GUI then so I am used to it.
+OpenHAB for Home Automation.
+      
+    Some tech geeks will give me issues for not using Home Assistant but I prefer OpenHAB and deploying the docker is easy as you don't have to set up separate docker apps for Z-wave and Zigbee to work like you do with HA.
+    It just works. Plus I have been using OH since 2018 back when you had to be fluent in YAML to use HA and OpenHAB was all GUI then so I am used to it.
       
       I have a separate doc in this repo for config tips for my OH setup
   
-Homarr for a dashboard 
+Homarr for a dashboard.
 
 
 
