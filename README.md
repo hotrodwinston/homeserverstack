@@ -48,7 +48,7 @@ Docker
   
   Plex - I am a Plex pass subscriber as of writing.
   
-  Automatic Ripping Machine (ARM) - installed via instructions from https://github.com/automatic-ripping-machine/automatic-ripping-machine and pointed to my media folder via casa GUI.
+  Automatic Ripping Machine (ARM) - installed via instructions from https://github.com/automatic-ripping-machine/automatic-ripping-machine .
   
     ARM required me to set the "arm" user as the owner of the folders
     - the container seems picky about things being right so make sure you RTFM.
