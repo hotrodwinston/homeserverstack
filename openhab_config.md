@@ -55,4 +55,21 @@ open/on
 
 https://community.openhab.org/t/getting-gocontrol-wa00z-1-to-controlzooz-zen52-double-relay/153235/14
 
-setting up rules to have scene controllers turn items on and off is more complicated than it should be in some cases so this guide is helpful.
+Setting up rules to have scene controllers turn items on and off is more complicated than it should be in some cases so this guide is helpful. Per the above link, you need to trigger on state update, not state change. An example rule for turning lights off is below. In this example, one relay of a double relay switch is being turned off when a button is pressed UPDATING the state of the scene controller to 2. If the item being controlled only had one relay I would just use association to make the buttons act as on/off. That has the advantage of working even if the hub is down. But in this case that's not an option.
+
+light off on scene remote button press
+
+    configuration: {}
+    triggers:
+      - id: "1"
+    configuration:
+      itemName: WA00Z1_Remote_2_Scene_Number
+      state: "2.0"
+    type: core.ItemStateUpdateTrigger
+    conditions: []
+    actions:
+      - id: "2"
+    configuration:
+      itemName: Living_Room_Ceiling_Switch_1
+      command: OFF
+    type: core.ItemCommandAction
