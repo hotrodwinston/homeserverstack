@@ -45,6 +45,7 @@ OMV provides storage management and system backend and for day to day frontend I
 Docker 
 
   Docker apps:
+  (I have a separate doc in this repo for docker-compose files and settings)
   
   Plex - I am a Plex pass subscriber as of writing.
   
@@ -65,7 +66,7 @@ OpenHAB for Home Automation.
     It just works. Plus I have been using OH since 2018 back when you had to be fluent in YAML to use HA and OpenHAB was all GUI then so I am used to it.
       
       
-  I have a separate doc in this repo for config tips for my OH setup
+  (I have a separate doc in this repo for config tips for my OH setup)
   
 Homarr for a dashboard.
 
