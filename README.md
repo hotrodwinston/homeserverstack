@@ -9,8 +9,6 @@ I made this repo public so I can share everything for tech support and so others
 # Hardware
 I am running an HP EliteDesk 800 G1 SFF with 256GB SSD boot drive and i5-4590 with 16 GB RAM and 1 TB internal HDD
 
-I purchased this refurb from Amazon for about $120 (USD) in May 2023
-
 External storage is a few USB3 HDD connected via a tp-link powered USB3 hub
 
 Hardware issues noted:
@@ -34,7 +32,8 @@ Potential upgrades:
 
 # Secondary Hardware
 
-Rpi 4 2gb running docker with duckDNS and WireGuardEasy containers to provide an external connection to control panel.
+Dell optiplex 7010 with 8gb ram and 4tb storage across 3 disks plus a 120gb ssd for boot running OMV and syncthing as a remote backup.
+This machine is stored at my parents house and accessed via wiregaurd VPN.
 
 
 # Software
@@ -58,6 +57,9 @@ Portainer
       
   YouTube Dl Material - installed via portainer
     I recently ran into issues with YTDL Material so I am running MeTube alongside it for redundancy.
+    Currently exploring YTDL-SUB for automation of downloading and organizing
+
+Wireguard for remote access    
 
 OpenHAB for Home Automation.
       
