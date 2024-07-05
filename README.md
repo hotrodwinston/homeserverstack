@@ -37,9 +37,9 @@ This machine is stored at my parents house and accessed via wiregaurd VPN.
 
 
 # Software
-I started in May 2023 with CasaOS running on top of Lubuntu 22.04 LTS but in Feb 2024 due to issues with trying to get more up-to-date docker images on CasaOS causing failures I moved to Open Media Vault 6 with the OMV-Extras add-on.
+Open Media Vault 6 with the OMV-Extras add-on.
 
-OMV provides storage management and system backend and for day to day frontend I use a dashboard.
+OMV provides storage management and system backend; I use a dashboard for day-to-day frontend.
 
 Docker 
 
@@ -55,9 +55,7 @@ Docker
 
 Portainer
       
-  YouTube Dl Material - installed via portainer
-    I recently ran into issues with YTDL Material so I am running MeTube alongside it for redundancy.
-    Currently exploring YTDL-SUB for automation of downloading and organizing
+  PinchFlat for download of youtube videos (with proper rename and organization for Plex!)
 
 Wireguard for remote access    
 
@@ -71,6 +69,8 @@ OpenHAB for Home Automation.
   (I have a separate doc in this repo for config tips for my OH setup)
   
 Homarr for a dashboard.
+
+gluetun/qbittorrent stack for vpn secured torrents as needed.
 
 
 
@@ -98,4 +98,6 @@ https://www.home-assistant.io/
 https://www.openhab.org/
 
 https://www.awesome-ha.com/
+
+https://github.com/kieraneglin/pinchflat
     
