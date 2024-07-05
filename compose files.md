@@ -28,3 +28,12 @@ services:
 
 
     create user with id above before deploy
+
+  Gluetun/qbittorrent from https://github.com/JamesTurland/JimsGarage/tree/main/Torrent-VPN
+  with protonvpn setup from https://github.com/qdm12/gluetun-wiki/blob/main/setup/providers/protonvpn.md
+
+  note: For anyone hosting qbittorrent container on their NAS. This is added in a new update or something. If qBittorrent detects a password was not set, instead of allowing you to login using the default password: adminadmin. it will produce a random password, you can find it in the container log.
+
+The message should be:
+
+"The WebUI administrator password was not set. A temporary password is provided for this session: _your_password_here_"
