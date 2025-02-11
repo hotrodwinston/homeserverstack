@@ -18,9 +18,10 @@ Hardware issues noted:
     Fixed by plugging a "dummy display" into the system.
 
  HP designed this system to use extra pins on the USB headers to prevent booting in other cases - when I did the case swap I just moved the HP front panel into the new case as an internal usb hub
+ 
  HP used a Non-Standard Power connection on the PSU that required an adapter to connect a standard ATX PSU - the above YT video has links to a similar adapter to the one I used.
-   If building a similar system make sure the adapter you buy clearly supports the system you are using.
-   Even if you dont plan to case swap, it's a good idea to buy the power adapter for your system for the future.
+    If building a similar system make sure the adapter you buy clearly supports the system you are using.
+    Even if you dont plan to case swap, it's a good idea to buy the power adapter for your system for the future.
  
     
 Potential upgrades:
