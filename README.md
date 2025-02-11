@@ -7,24 +7,25 @@ This is a documentaion project for my home server so I can have all my links and
 I made this repo public so I can share everything for tech support and so others can use the data I collect.
 
 # Hardware
-I am running an HP EliteDesk 800 G1 SFF with 256GB SSD boot drive and i5-4590 with 16 GB RAM and 1 TB internal HDD
+I am running an HP EliteDesk 800 G1 SFF swapped into a Thermaltake Chaser MK-1 Case ( https://youtu.be/Zxw_4KV5DHM?si=MirhrU_Hl9WOW1NG for how to do the swap) with 256GB SSD boot drive and i5-4590 with 16 GB RAM (4x 4GB)
+I have the boot drive, a 1TB HDD for containers, and a DVD drive connected to the motherboard SATA ports. I have all nas storage connected thru an LSI 9207-8i HBA.
 
-External storage is a few USB3 HDD connected via a tp-link powered USB3 hub
+External storage (Plex Video Storage) is a few USB3 HDD connected via a tp-link powered USB3 hub
 
 Hardware issues noted:
   Will not boot headless.
     
     Fixed by plugging a "dummy display" into the system.
+
+ HP designed this system to use extra pins on the USB headers to prevent booting in other cases - when I did the case swap I just moved the HP front panel into the new case as an internal usb hub
+ HP used a Non-Standard Power connection on the PSU that required an adapter to connect a standard ATX PSU - the above YT video has links to a similar adapter to the one I used.
+   If building a similar system make sure the adapter you buy clearly supports the system you are using.
+   Even if you dont plan to case swap, it's a good idea to buy the power adapter for your system for the future.
  
- The generic laptop-style dvd drive from the refurbisher will sometimes hang against the front panel on eject.
-    
-    (This is not a major issue during day-to-day just during setup and media ripping.)
-
-
     
 Potential upgrades:
   
-  This hardware supports up to 32 GB of RAM and has internal PCIe slots so future expansion is possible
+  This hardware supports up to 32 GB of RAM and has internal PCIe slots so future expansion is possible (one PCIe slot already in use by HBA)
   
   Replacing the DVD drive with a Blu-ray drive is an option - but ripping Blu-ray will require both a compatible drive and a MakeMKV license.
   
@@ -33,11 +34,11 @@ Potential upgrades:
 # Secondary Hardware
 
 Dell optiplex 7010 with 8gb ram and 4tb storage across 3 disks plus a 120gb ssd for boot running OMV and syncthing as a remote backup.
-This machine is stored at my parents house and accessed via wiregaurd VPN.
+This machine is stored at my parents house and accessed via Twingate VPN.
 
 
 # Software
-Open Media Vault 6 with the OMV-Extras add-on.
+Open Media Vault 7 with the OMV-Extras add-on.
 
 OMV provides storage management and system backend; I use a dashboard for day-to-day frontend.
 
@@ -57,7 +58,7 @@ Portainer
       
   PinchFlat for download of youtube videos (with proper rename and organization for Plex!)
 
-Wireguard for remote access    
+Twingate for remote access    
 
 OpenHAB for Home Automation.
       
@@ -69,8 +70,6 @@ OpenHAB for Home Automation.
   (I have a separate doc in this repo for config tips for my OH setup)
   
 Homarr for a dashboard.
-
-gluetun/qbittorrent stack for vpn secured torrents as needed.
 
 
 
